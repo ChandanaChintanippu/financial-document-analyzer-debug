@@ -1,6 +1,6 @@
 # Financial Document Analyzer – Debug Challenge Submission
 
-## 📌 Overview
+##  Overview
 
 This project is a CrewAI-based financial document analysis system designed to process corporate financial PDFs and generate structured investment insights.
 
@@ -10,7 +10,7 @@ The system is now fully functional and includes SQLite database persistence as a
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Upload financial documents (PDF)
 - Structured financial analysis
@@ -22,7 +22,7 @@ The system is now fully functional and includes SQLite database persistence as a
 
 ---
 
-# 🐛 Bugs Identified & Fixed
+#  Bugs Identified & Fixed
 
 ## 1️⃣ Dependency Conflicts
 
@@ -158,7 +158,7 @@ Rewrote task instructions to:
 
 ---
 
-# ⭐ Bonus Feature: Database Integration
+#  Bonus Feature: Database Integration
 
 Implemented SQLite database persistence using SQLAlchemy.
 
@@ -175,7 +175,7 @@ analysis.db
 
 ---
 
-## 📡 Additional Endpoint
+##  Additional Endpoint
 
 ### GET `/history`
 
@@ -197,7 +197,7 @@ Example response:
 
 ---
 
-# ⚙️ Setup Instructions
+#  Setup Instructions
 
 ```bash
 git clone <your-repo-url>
@@ -218,7 +218,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# 📡 API Endpoints
+#  API Endpoints
 
 ## POST `/analyze`
 
@@ -238,7 +238,7 @@ Retrieve stored analysis records.
 
 ---
 
-# 🔐 LLM Configuration
+#  LLM Configuration
 
 The system supports OpenAI via environment variable:
 
@@ -259,7 +259,7 @@ OPENAI_API_KEY=your_api_key_here
 
 ---
 
-# 🏗 Architecture Overview
+#  Architecture Overview
 
 User  
 → FastAPI  
@@ -270,7 +270,7 @@ User
 
 ---
 
-# 📌 Conclusion
+#  Conclusion
 
 The system has been fully stabilized, refactored, and enhanced to ensure:
 
